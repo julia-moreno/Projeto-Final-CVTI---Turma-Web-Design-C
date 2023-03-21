@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;700&display=swap" rel="stylesheet">
+    <title>Guia Gastronômico</title>
+    <link rel="stylesheet" href="script.js">  
+</head>
+<body>
+
+  <script src="js/slide.js"></script>
+
+    <div class="background">
+        
+     <header>
+        <nav>
+            <label class="logo">Guia Gastronômico</label>
+                <ul>
+                    <li> <a href="#categoria-hamburgueria">Hamburguerias</a> </li>
+                    <li><a href="#categoria-pizzaria">Pizzarias</a></li>
+                    <li><a href="#categoria-cafeteria">Cafeterias</a></li>
+                    <li><a href="#categoria-bar">Bares</a></li>
+                    <li><a href="#categoria-restaurante">Restaurantes</a></li>
+                    <li><a href="#descricao-site" class="button">Conheça</a></li>
+                </ul>
+                
+        </nav>   
+     </header>
+
+    </div><!--background-->
+
+    <div class="center">
+        <div class="informativo">
+            <h1>Conheça a cultura gatronômica <br> de <span class="text-tertiary">Nova Iguaçu</span> </h1>
+
+            <p>Este é um guia de gastronomia de Nova Iguaçu, <br>
+               cidade localizada na região metropolitana do Rio <br>
+               de Janeiro. A cidade tem uma grande variedade <br>
+               de restaurantes e bares que oferecem opções para <br> 
+               todos os gostos e bolsos.</p>
+            <a href="#descricao-site" class="button-center">Conheça</a>
+        </div><!--informativo-->
+        
+        <div class="slider">
+
+          
+
+            <div class="slides">
+  
+              <input type="radio" name="radio-btn" id="radio1">
+              <input type="radio" name="radio-btn" id="radio2">
+              <input type="radio" name="radio-btn" id="radio3">
+              <input type="radio" name="radio-btn" id="radio4">
+              <input type="radio" name="radio-btn" id="radio5">
+  
+              <div class="slide first">
+                <img src="11.png" alt="">
+              </div>
+  
+              <div class="slide">
+                <img src="22.png" alt="">
+              </div>
+  
+              <div class="slide">
+                <img src="33.png" alt="">
+              </div>
+  
+              <div class="slide">
+                <img src="44.png" alt="">
+              </div>
+  
+              <div class="slide">
+                <img src="55.png" alt="">
+              </div>
+  
+            </div><!--slides-->
+          
+
+
+          <div class="navgation-bar">
+            <label class="manual-btn" for="radio1"></label>
+            <label class="manual-btn" for="radio2"></label>
+            <label class="manual-btn" for="radio3"></label>
+            <label class="manual-btn" for="radio4"></label>
+            <label class="manual-btn" for="radio5"></label>
+          </div><!--navgation-bar-->
+
+        </div><!--slider-->
+    </div><!--center-->
+
+    <section class="descricao-site" id="descricao-site">
+       <img src="img/prefeitura.png" alt="Prefeitura de Nova Iguaçu" class="img-descrição">
+       <div>
+          <p class="culinária">
+            <br><br>
+             A culinária de Nova Iguaçu é uma mistura de sabores e tradições que o tornam <br>
+             uma referência gastronômica na região. Com opções que vão desde as comidas <br>
+             típicas brasileiras até a culinária internacional, passando pelos pratos de rua e  <br>
+             doces deliciosos, há algo para todos os gostos e paladares.
+          </p>
+       </div> 
+    </section> <!--descrição do site-->
+
+    <br><br>
+
+    <section class="mapa">
+        <div class="text-mapa"><h2>Encontre os melhores lugares para comer e beber em Nova Iguaçu</h2></div>
+        <br> <br>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d8750.885514012614!2d-43.47820394271289!3d-22.75446329354648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srestaurantes%20nova%20igua%C3%A7u!5e0!3m2!1spt-BR!2sbr!4v1678669229843!5m2!1spt-BR!2sbr"
+          width="1515"
+          height="250"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+    </section><!--mapa-->
+
+    <br><br>
+
+    <section id="resturantes">
+        <div class="restaurantes-card">
+
+          <article id="categoria-hamburgueria" class="restaurantes-lista">
+
+            <div class="hamburgueria-categoria">
+              <h2>h a m b u r g u e r i a s</h2>
+            </div>  
+  
+            <br>
+  
+            <div class="container-card1">
+  
+  
+                  <div class="card card-1">
+                    <div class="card-header">
+                      <img src="img/hazer.jpg" class="card-img" />
+                    </div><!-- card-header -->
+            
+                   
+                    <div class="card-body">
+                      <h3 class="card-local">🍔 Hamburgueria</h3>
+                      <h2 class="card-titulo">Raze Burger</h2>
+                      <p class="card-texto">
+                          $$<br>
+                          Restaurante focado em Hamburguer Artesanal<br>
+                        📍 Av. Dr. Mário Guimarães, 486 loja 2 - NI
+                      </p>
+                    </div><!-- card-body -->
+            
+                    <!-- card-footer -->
+                    <div class="card-footer">
+                      <a href="https://www.instagram.com/razeburger/">Saiba Mais</a>
+                    </div><!-- card-footer -->
+  
+                  </div><!-- Card 1 -->
+  
+  
+                  <div class="card card-2">
+                      <div class="card-header">
+                        <img src="img/DARLING.jpg" class="card-img" />
+                      </div><!-- card-header -->
+              
+                     
+                      <div class="card-body">
+                        <h3 class="card-local">🍔 Hamburgueria</h3>
+                        <h2 class="card-titulo">Darling diner</h2>
+                        <p class="card-texto">
+                           $$<br><br>
+                           Restaurante estilo anos 50<br>
+                           📍 Av. Abílio Augusto Távora, 580 - NI
+                        </p>
+                      </div><!-- card-body -->
+              
+                      <!-- card-footer -->
+                      <div class="card-footer">
+                        <a href="https://www.instagram.com/darlingdiner/">Saiba Mais</a>
+                      </div><!-- card-footer -->
+    
+                  </div><!-- Card 2 -->
+  
+  
+                  <div class="card card-3">
+                      <div class="card-header">
+                        <img src="img/vikings.jpg" class="card-img" />
+                      </div><!-- card-header -->
+              
+                     
+                      <div class="card-body">
+                        <h3 class="card-local">🍔 Hamburgueria</h3>
+                        <h2 class="card-titulo">Vikings</h2>
+                        <p class="card-texto">
+                           $$<br>
+                           Hamburgueria com tema dos Vikings.<br>
+                           📍 Av. Abílio Augusto Távora, 279 - Centro, NI
+                        </p>
+                      </div><!-- card-body -->
+              
+                      <!-- card-footer -->
+                      <div class="card-footer">
+                        <a href="https://www.instagram.com/vikings.br/">Saiba Mais</a>
+                      </div><!-- card-footer -->
+    
+                  </div><!-- Card 3 -->
+  
+  
+                  <div class="card card-4">
+                      <div class="card-header">
+                        <img src="img/olimpo0.jpg" class="card-img" />
+                      </div><!-- card-header -->
+              
+                     
+                      <div class="card-body">
+                        <h3 class="card-local">🍔 Hamburgueria</h3>
+                        <h2 class="card-titulo">Olimpo Burguer</h2>
+                        <p class="card-texto">
+                           $$<br><br>
+                            Hamburgueria temática<br>
+                           📍 R. Ocidental, 180 - Rancho Novo, NI
+                        </p>
+                      </div><!-- card-body -->
+              
+                      <!-- card-footer -->
+                      <div class="card-footer">
+                        <a href="https://www.instagram.com/olimpoburgueroficial/">Saiba Mais</a>
+                      </div><!-- card-footer -->
+    
+                  </div><!-- Card 4 -->
+  
+            </div><!--container-card1-->
+  
+            <br>
+
+          </article>
+
+          <article id="categoria-pizzaria" class="restaurantes-lista">
+
+            <div class="pizzaria-categoria">
+             <h2> p i z z a r i a s</h2>
+            </div>  
+  
+            <br>
+  
+            <div class="container-card2">
+  
+    
+    
+                  <div class="card card-5">
+                      <div class="card-header">
+                        <img src="img/pizz 1.jfif" class="card-img" />
+                      </div><!-- card-header -->
+              
+                     
+                      <div class="card-body">
+                        <h3 class="card-local">🍕Pizzaria</h3>
+                        <h2 class="card-titulo">Pizza & Pasta</h2>
+                        <p class="card-texto">
+                           $$ <br><br> 
+                           📍 Endereço: Av. Dr. Mario Guimarães, 196 - Centro, NI
+                           <br>Telefone: (21) 2667-5696
+                        </p>
+                      </div><!-- card-body -->
+              
+                      <!-- card-footer -->
+                      <div class="card-footer">
+                        <a href="https://www.instagram.com/pizzaepastaoficial/">Saiba Mais</a>
+                      </div><!-- card-footer -->
+    
+                  </div><!-- Card 5 -->
+    
+    
+                  <div class="card card-6">
+                      <div class="card-header">
+                        <img src="img/pizz 2.jpg" class="card-img" />
+                      </div><!-- card-header -->
+              
+                     
+                      <div class="card-body">
+                        <h3 class="card-local">🍕Pizzaria</h3>
+                        <h2 class="card-titulo">Destemida</h2>
+                        <p class="card-texto">
+                           $$ <br><br>
+                           📍Endereço: Rua Juiz Alberto Nader, 87 - Luz, NI
+                           <br>Telefone: (21) 97625-4260
+                        </p>
+                      </div><!-- card-body -->
+              
+                      <!-- card-footer -->
+                      <div class="card-footer">
+                        <a href="https://www.instagram.com/destemidapizza/">Saiba Mais</a>
+                      </div><!-- card-footer -->
+    
+                  </div><!-- Card 6-->
+    
+    
+                  <div class="card card-7">
+                      <div class="card-header">
+                        <img src="img/pizz 3.jpg" class="card-img" />
+                      </div><!-- card-header -->
+              
+                     
+                      <div class="card-body">
+                        <h3 class="card-local">🍕Pizzaria</h3>
+                        <h2 class="card-titulo">Maglia Pizza</h2>
+                        <p class="card-texto">
+                           $$ <br><br>
+                           📍 Endereço: R. Azis Rachid, 15 - Centro, NI
+                           <br>Telefone: (21) 3742-1661
+                        </p>
+                      </div><!-- card-body -->
+              
+                      <!-- card-footer -->
+                      <div class="card-footer">
+                        <a href="https://www.instagram.com/magliapizza/">Saiba Mais</a>
+                      </div><!-- card-footer -->
+    
+                  </div><!-- Card 7 -->
+    
+    
+                  <div class="card card-8">
+                      <div class="card-header">
+                        <img src="img/pizz 4.jpg" class="card-img" />
+                      </div><!-- card-header -->
+              
+                     
+                      <div class="card-body">
+                        <h3 class="card-local">🍕Pizzaria</h3>
+                        <h2 class="card-titulo">Pizzaria Dellano</h2>
+                        <p class="card-texto">
+                           $$ <br><br>
+                           📍 Endereço: Av. Dr. Mario Guimarães, 430 - Centro, NI<br>
+                           Telefone: (21) 2668-0831
+                        </p>
+                      </div><!-- card-body -->
+              
+                      <!-- card-footer -->
+                      <div class="card-footer">
+                        <a href="https://www.instagram.com/forneria.dellano/">Saiba Mais</a>
+                      </div><!-- card-footer -->
+    
+                  </div><!-- Card 8 -->
+                  
+            </div><!--container-card2-->
+  
+            <br>
+
+          </article>
+
+          <article id="categoria-cafeteria" class="restaurantes-lista">
+
+            <div class="cafeteria-categoria">
+             <h2> c a f e t e r i a s</h2>
+            </div> 
+  
+            <br>
+            
+            <div class="container-card3">
+                  
+    
+    
+                  <div class="card card-9">
+                      <div class="card-header">
+                        <img src="img/anime coffee.jpg" class="card-img" />
+                      </div><!-- card-header -->
+              
+                     
+                      <div class="card-body">
+                        <h3 class="card-local">☕ Café</h3>
+                        <h2 class="card-titulo">Anime Coffe</h2>
+                        <p class="card-texto">
+                           $$ <br><br>   📍Praça Severino Azevedo, 435 Centro - NI <br>
+                           Telefone: (21) 3900-6680
+                        </p>
+                      </div><!-- card-body -->
+              
+                      <!-- card-footer -->
+                      <div class="card-footer">
+                        <a href="https://www.instagram.com/animecoffeebr/">Saiba Mais</a>
+                      </div><!-- card-footer -->
+    
+                  </div><!-- Card 9 -->
+    
+    
+                  <div class="card card-10">
+                      <div class="card-header">
+                        <img src="img/empório e café.jpg" class="card-img" />
+                      </div><!-- card-header -->
+              
+                     
+                      <div class="card-body">
+                        <h3 class="card-local">☕ Café</h3>
+                        <h2 class="card-titulo">Empório & Café</h2>
+                        <p class="card-texto">
+                           $$ <br></br> 📍Av. Dr. Mário Guimarães, 620 - NI<br>
+                           Telefone: (21) 3773-6303
+                        </p>
+                      </div><!-- card-body -->
+              
+                      <!-- card-footer -->
+                      <div class="card-footer">
+                        <a href="https://www.proximasessao.com.br/quem-somos">Saiba Mais</a>
+                      </div><!-- card-footer -->
+    
+                  </div><!-- Card 10 -->
+    
+    
+                  <div class="card card-11">
+                      <div class="card-header">
+                        <img src="img/art pão.jfif" class="card-img" />
+                      </div><!-- card-header -->
+              
+                     
+                      <div class="card-body">
+                        <h3 class="card-local">☕ Café</h3>
+                        <h2 class="card-titulo">Art-pão</h2>
+                        <p class="card-texto">
+                          $$ <br> <br> 📍Endereço: R. Dr. Barros Júnior, 272 - Centro, NI<br>
+                          Telefone: (21) 3763-7878
+                        </p>
+                      </div><!-- card-body -->
+              
+                      <!-- card-footer -->
+                      <div class="card-footer">
+                        <a href="https://www.instagram.com/artpaoficial/">Saiba Mais</a>
+                      </div><!-- card-footer -->
+    
+                  </div><!-- Card 11 -->
+    
+    
+                  <div class="card card-12">
+                      <div class="card-header">
+                        <img src="img/starbucks.jpg" class="card-img" />
+                      </div><!-- card-header -->
+              
+                     
+                      <div class="card-body">
+                        <h3 class="card-local">☕ Café</h3>
+                        <h2 class="card-titulo">Starbucks</h2>
+                        <p class="card-texto">
+                          $$ <br><br><br>📍Av. Abílio Augusto Távora, 1.111 - Bairro da Luz - NI
+                        </p>
+                      </div><!-- card-body -->
+              
+                      <!-- card-footer -->
+                      <div class="card-footer">
+                        <a href="https://www.instagram.com/starbucksbrasil/">Saiba Mais</a>
+                      </div><!-- card-footer -->
+    
+                  </div><!-- Card 12 -->
+  
+            </div><!--container-card3-->
+  
+            <br>
+
+          </article>
+
+          <article id="categoria-bar" class="restaurantes-lista">
+
+            <div class="bar-categoria">
+             <h2>b a r e s</h2>
+            </div> 
+  
+            <br>
+  
+            <div class="container-card4">
+  
+    
+    
+                  <div class="card card-13">
+                      <div class="card-header">
+                        <img src="img/bar do zeca.jpg" class="card-img" />
+                      </div><!-- card-header -->
+              
+                     
+                      <div class="card-body">
+                        <h3 class="card-local">🍺Bar & Restaurante</h3>
+                        <h2 class="card-titulo">Bar do Zeca</h2>
+                        <p class="card-texto">
+                           $$ - $$$<br><br><br>
+                           📍 R. Dom Walmor, 267 - Centro, NI
+                        </p>
+                      </div><!-- card-body -->
+              
+                      <!-- card-footer -->
+                      <div class="card-footer">
+                        <a href="https://bfw.group/bar-do-zeca-pagodinho/">Saiba Mais</a>
+                      </div><!-- card-footer -->
+    
+                  </div><!-- Card 13 -->
+    
+    
+                  <div class="card card-14">
+                      <div class="card-header">
+                        <img src="img/bar do adão.jpg" class="card-img" />
+                      </div><!-- card-header -->
+              
+                     
+                      <div class="card-body">
+                        <h3 class="card-local">🍺Bar & Restaurante</h3>
+                        <h2 class="card-titulo">Bar do Adão</h2>
+                        <p class="card-texto">
+                           $$ - $$$ <br><br><br>
+                           📍Av. Abílio Augusto Távora - Luz, NI
+                        </p>
+                      </div><!-- card-body -->
+              
+                      <!-- card-footer -->
+                      <div class="card-footer">
+                        <a href="https://www.bardoadao.com.br/">Saiba Mais</a>
+                      </div><!-- card-footer -->
+    
+                  </div><!-- Card 14 -->
+    
+    
+                  <div class="card card-15">
+                      <div class="card-header">
+                        <img src="img/manhattan.jfif" class="card-img" />
+                      </div><!-- card-header -->
+              
+                     
+                      <div class="card-body">
+                        <h3 class="card-local">🍺Bar & Restaurante</h3>
+                        <h2 class="card-titulo">Manhattan Bar</h2>
+                        <p class="card-texto">
+                           $$  <br><br>
+                           📍Av. Tancredo Neves, 3686 - Centro, Nova Iguaçu - RJ <br>
+                           Telefone: (21) 98234-4665
+                        </p>
+                      </div><!-- card-body -->
+              
+                      <!-- card-footer -->
+                      <div class="card-footer">
+                        <a href="https://www.instagram.com/manhattanbareclub/">Saiba Mais</a>
+                      </div><!-- card-footer -->
+    
+                  </div><!-- Card 15 -->
+    
+    
+                  <div class="card card-16">
+                      <div class="card-header">
+                        <img src="img/boteco do manolo.jpg" class="card-img" />
+                      </div><!-- card-header -->
+              
+                     
+                      <div class="card-body">
+                        <h3 class="card-local">🍺Bar & Restaurante</h3>
+                        <h2 class="card-titulo">Manolo</h2>
+                        <p class="card-texto">
+                           $$$ <br><br><br>
+                           📍Av. Abílio Augusto Távora, 1111 - Loja 1004
+                        </p>
+                      </div><!-- card-body -->
+              
+                      <!-- card-footer -->
+                      <div class="card-footer">
+                        <a href="https://www.botecodomanolo.com.br/">Saiba Mais</a>
+                      </div><!-- card-footer -->
+    
+                  </div><!-- Card 16 -->
+  
+            </div><!--container-card4-->
+  
+            <br>
+
+          </article>
+
+          <article id="categoria-restaurante" class="restaurantes-lista">
+
+            <div class="restaurante-categoria">
+             <h2>r e s t a u r a n t e s</h2>
+            </div> 
+  
+            <br>
+            
+            <div class="container-card5">
+  
+    
+    
+                  <div class="card card-17">
+                      <div class="card-header">
+                        <img src="img/OUTBACK.png" class="card-img" />
+                      </div><!-- card-header -->
+              
+                     
+                      <div class="card-body">
+                        <h3 class="card-local">🍽️ Restaurante</h3>
+                        <h2 class="card-titulo">Outback</h2>
+                        <p class="card-texto">
+                           $$$ <br><br>
+                           📍 Av. Abílio Augusto Távora, 1111 Shopping - Luz, NI
+                           <br>Telefone: (21) 3900-2988
+                        </p>
+                      </div><!-- card-body -->
+              
+                      <!-- card-footer -->
+                      <div class="card-footer">
+                        <a href="https://www.instagram.com/outbackbrasil/">Saiba Mais</a>
+                      </div><!-- card-footer -->
+    
+                  </div><!-- Card 17 -->
+    
+    
+                  <div class="card card-18">
+                      <div class="card-header">
+                        <img src="img/ETNIAS.png" class="card-img" />
+                      </div><!-- card-header -->
+              
+                     
+                      <div class="card-body">
+                        <h3 class="card-local">🍽️ Restaurante</h3>
+                        <h2 class="card-titulo">Etnias</h2>
+                        <p class="card-texto">
+                           $$<br><br>
+                           📍 Av. Dr. Mario Guimarães, 637 - Centro, NI
+                           <br>Telefone: (21) 2698-5931
+                        </p>
+                      </div><!-- card-body -->
+              
+                      <!-- card-footer -->
+                      <div class="card-footer">
+                        <a href="https://www.instagram.com/etnias_/">Saiba Mais</a>
+                      </div><!-- card-footer -->
+    
+                  </div><!-- Card 18 -->
+    
+    
+                  <div class="card card-19">
+                      <div class="card-header">
+                        <img src="img/ABRACADABRA.jpg" class="card-img" />
+                      </div><!-- card-header -->
+              
+                     
+                      <div class="card-body">
+                        <h3 class="card-local">🍽️ Restaurante</h3>
+                        <h2 class="card-titulo">Abracadabra</h2>
+                        <p class="card-texto">
+                           $<br><br>
+                           📍 Av. Dr. Mario Guimarães, 520 - Centro, NI
+                           <br>Telefone: (21) 3540-2431
+                        </p>
+                      </div><!-- card-body -->
+              
+                      <!-- card-footer -->
+                      <div class="card-footer">
+                        <a href="https://www.instagram.com/abracadabra.gourmet/">Saiba Mais</a>
+                      </div><!-- card-footer -->
+    
+                  </div><!-- Card 19 -->
+    
+    
+                  <div class="card card-20">
+                      <div class="card-header">
+                        <img src="img/PARADA.png" class="card-img" />
+                      </div><!-- card-header -->
+              
+                     
+                      <div class="card-body">
+                        <h3 class="card-local">🍽️ Restaurante</h3>
+                        <h2 class="card-titulo">Parada 7.5.8</h2>
+                        <p class="card-texto">
+                           $$<br><br>
+                           📍 Av. Dr. Mario Guimarães, 758 - Centro, NI
+                           <br>Telefone: (21) 3685-6663
+                        </p>
+                      </div><!-- card-body -->
+              
+                      <!-- card-footer -->
+                      <div class="card-footer">
+                        <a href="https://www.instagram.com/parada758oficial/">Saiba Mais</a>
+                      </div><!-- card-footer -->
+    
+                  </div><!-- Card 20 -->
+            </div><!--container-card5-->
+
+          </article>
+
+             
+
+
+
+
+
+        </div><!--restaurantes-card-->
+    </section><!--restaurantes-->
+
+    <footer>RODAPÉ AQUI</footer>
+
+
+    
+</body>
+</html>
